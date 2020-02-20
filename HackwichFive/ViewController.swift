@@ -8,11 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    var currentIndex: Int = 0
+    
+    var foodList = ["ice cream", "pancakes", "potatoes", "fried rice", "poi"]
+    
+    @IBOutlet weak var topLabel: UILabel!
+    
+    @IBOutlet weak var bottomLabel: UILabel!
+    
+    @IBAction func buttonPressed(_ sender: Any)
+    {
+        self.bottomLabel.text = foodList[currentIndex]
+    }
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.topLabel.text = "My Favorite Foods"
     }
 
 
