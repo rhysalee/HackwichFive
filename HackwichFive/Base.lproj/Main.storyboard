@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ksq-3x-ZZB"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ID-8k-1PE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,8 +43,8 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="ntu-Nw-yr2" id="bE9-pf-MNN"/>
-                        <outlet property="buttonPressed" destination="eLs-dA-m2G" id="hg9-GK-8sN"/>
-                        <outlet property="labelOne" destination="Aev-yQ-ITc" id="KlT-2R-w8r"/>
+                        <outlet property="buttonLabel" destination="eLs-dA-m2G" id="LW3-W9-hXe"/>
+                        <outlet property="topLabel" destination="Aev-yQ-ITc" id="UTs-ob-5ti"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
